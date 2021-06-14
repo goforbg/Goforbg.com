@@ -12,8 +12,8 @@ export default function About() {
       />
       <div className="divide-y">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Bharadwaj Giridhar
+          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 text-center">
+            Who's BG?
           </h1>
         </div>
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
@@ -35,20 +35,20 @@ export default function About() {
           </div>
           <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
             <p>
-              Bharadwaj Giridhar is an Entrepreneur, Startup Enthusiast & Android Engineer. He's the
-              founder of DotPush, an efficient way to agendize, automate agile meetings. He writes
-              about Startups, Tech & Finance. He's a full time Android Engineer and has shipped 8+
-              Android Apps to 100K+ users.
+              Bharadwaj Giridhar (@goforbg) is an Entrepreneur, Startup Enthusiast & Software
+              Engineer. Starting from the age of 12 he has been an avid blogger, and has always been
+              building & shipping tech solutions round the globe.
             </p>
             <p>
-              He leads the clean energy group which develops 3D air pollution-climate models, writes
-              differential equation solvers, and manufactures titanium plated air ballons. In his
-              free time he bakes raspberry pi.
+              He's currently building DotPush, an efficient way to agendize, automate agile
+              meetings. Previously indiehacked several projects including Androar - a Tech blog &
+              youtube channel focused on tech, Foodmux - a youtube video evolved to an app, for
+              connecting with fellow foodies.
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique
-              placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem
-              nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+              He's currently a full time Android Engineer at Workllama and has shipped 8+ Android
+              Apps to 100K+ users. He has over 2 years of experience in architecting end to end
+              Android Applications & loves open source software.
             </p>
           </div>
         </div>
