@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import WisdomBitmoji from 'public/static/images/pandemic.png'
+import AxilorBitmoji from 'public/static/images/axilor.png'
 
 export default function Timeline() {
   return (
@@ -11,145 +12,91 @@ export default function Timeline() {
       </div>
       <section className="text-gray-400 body-font">
         <div className="container px-5 py-10 mx-auto flex flex-wrap">
-          <div className="flex relative pt-10 pb-20 items-center">
-            <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
-              <div className="h-full w-0.5 bg-gray-200 dark:bg-gray-800 pointer-events-none"></div>
-            </div>
-            <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">
-              <span role="img" aria-label="Wealth">
-                💸
-              </span>
-            </div>
-            <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-              <div className="relative flex-shrink-0 w-48 h-48 text-indigo-400 rounded-full inline-flex items-center justify-center">
-                <Image
-                  src={WisdomBitmoji}
-                  alt="BG reading books"
-                  layout="fill"
-                  objectFit="contain"
-                />
-              </div>
-              <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                <h2 className="title-font text-gray-700 dark:text-white mb-5 text-xl font-bold">
-                  Wisdom Fuelled Pandemic
-                </h2>
-                <p className="leading-relaxed text-gray-700 dark:text-white">
-                  The pandemic was a huge turn in my life. I had discovered Naval Ravikanth, which
-                  was the butterfly to a storm of finance, entrepreneurship & self-help books. I
-                  have always been intrigued by wealth, but the pandemic that gave rise to extra
-                  time, more knowledge consisely connected the dots on what I exactly needed to do.
-                  I became very clear on what I had to do next. A new chapter of wealth creation
-                  begins.
-                  <br />
-                  <br />
-                  Learnt how to build & ship applications using Next js, React, Tailwind, Node js,
-                  Docker and more! I had previously been shying away from learning new technologies,
-                  but I couldn't stop from here. The more I read about economy, the more I
-                  understood the nuances of society.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
-            <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
-              <div className="h-full w-0.5 bg-gray-200 dark:bg-gray-800 pointer-events-none"></div>
-            </div>
-            <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">
-              2
-            </div>
-            <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-              <div className="flex-shrink-0 w-24 h-24 bg-gray-800 text-indigo-400 rounded-full inline-flex items-center justify-center">
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="w-12 h-12"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                </svg>
-              </div>
-              <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                <h2 className="font-medium title-font text-gray-700 dark:text-white mb-1 text-xl">
-                  International Waters
-                </h2>
-                <p className="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard
-                  cliche palo santo offal.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
-            <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
-              <div className="h-full w-0.5 bg-gray-200 dark:bg-gray-800 pointer-events-none"></div>
-            </div>
-            <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">
-              3
-            </div>
-            <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-              <div className="flex-shrink-0 w-24 h-24 bg-gray-800 text-indigo-400 rounded-full inline-flex items-center justify-center">
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="w-12 h-12"
-                  viewBox="0 0 24 24"
-                >
-                  <circle cx="12" cy="5" r="3"></circle>
-                  <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
-                </svg>
-              </div>
-              <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                <h2 className="font-medium title-font text-gray-700 dark:text-white mb-1 text-xl">
-                  The 400 Blows
-                </h2>
-                <p className="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard
-                  cliche palo santo offal.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
-            <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
-              <div className="h-full w-0.5 bg-gray-200 dark:bg-gray-800 pointer-events-none"></div>
-            </div>
-            <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">
-              4
-            </div>
-            <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-              <div className="flex-shrink-0 w-24 h-24 bg-gray-800 text-indigo-400 rounded-full inline-flex items-center justify-center">
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="w-12 h-12"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                  <circle cx="12" cy="7" r="4"></circle>
-                </svg>
-              </div>
-              <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                <h2 className="font-medium title-font text-gray-700 dark:text-white mb-1 text-xl">
-                  Neptune
-                </h2>
-                <p className="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard
-                  cliche palo santo offal.
-                </p>
-              </div>
-            </div>
-          </div>
+          {lifeEvents.map((event) => lifeEvent(event))}
         </div>
       </section>
     </>
   )
 }
+function lifeEvent(lifeEvent) {
+  return (
+    <div className="flex relative pt-10 pb-20 items-center">
+      <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div className="h-full w-0.5 bg-gray-200 dark:bg-gray-800 pointer-events-none"></div>
+      </div>
+      <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">
+        <span role={lifeEvent.stepper.role} aria-label={lifeEvent.stepper.label}>
+          {lifeEvent.stepper.icon}
+        </span>
+      </div>
+      <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+        <div className="relative flex-shrink-0 w-48 h-48 text-indigo-400 rounded-full inline-flex items-center justify-center">
+          <Image
+            src={lifeEvent.image.path}
+            alt={lifeEvent.image.label}
+            layout="fill"
+            objectFit="contain"
+          />
+        </div>
+        <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h1 className="title-font text-gray-700 dark:text-white mb-5 text-2xl font-bold">
+            {lifeEvent.event.title}
+          </h1>
+          <p
+            className="mt-8 leading-relaxed text-gray-700 dark:text-white"
+            dangerouslySetInnerHTML={{ __html: lifeEvent.event.desc }}
+          ></p>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+const corona_2020_to_2021 = {
+  stepper: {
+    icon: '💸',
+    label: 'Weath',
+    role: 'img',
+  },
+  image: {
+    label: 'Bhardwaj Giridhar Bitmoji reading a Book',
+    path: WisdomBitmoji,
+  },
+  event: {
+    title: 'Wisdom Fulled Pandemic',
+    desc:
+      "The pandemic was a huge turn in my life. I had discovered Naval Ravikanth, which was the butterfly to a <b>storm of finance, entrepreneurship & self-help books</b> . I have always been intrigued by wealth, but the pandemic that gave rise to extra time, more knowledge consisely connected the dots on what I exactly needed to do. I became very clear on what I had to do next. A new chapter of wealth creation begins. <br /> <br /> I joined Workllama as an Android Engineer, and learnt how to architect apps at scale. Conducted 50+ interviews, coded 5+ libraries. Learnt how to build & ship applications using Next js, React, Tailwind, Node js, Docker and more! Hunted several <b>product of the day</b> ProductHunt posts. I had previously been shying away from learning new technologies, but I couldn't stop here! The more I read about economy, the more I understood the nuances of society.",
+  },
+}
+
+const axilor_2019 = {
+  stepper: {
+    icon: '💻',
+    label: 'Code',
+    role: 'img',
+  },
+  image: {
+    label: 'Bhardwaj Giridhar Coding on a laptop',
+    path: AxilorBitmoji,
+  },
+  event: {
+    title: 'The new kid on the block',
+    desc:
+      'I had scored an Android internship with huge efforts. I picked Android because I had seen the boom of Whatsapp and the irrepeclable value proposition it offers, and its arguably monopolistic status. Despite getting placed with many MNCs at my college, it was time to take control of my life. When you say the words <b>Bengaluru, Tech or Startups</b> my brain strarted lighting up. I was born in a generation inspired by The Social Network, so it was a no brainer to be the underdog. I had interned at Bolkar (previously Pascolan) a startup aiming to be the #1 Indian vernacular audio Q&A platform. <br/><br/> While the movie potrayals of startups are extremely glamorous, the reality can hurt a bit. I had started to code only in the later parts of college, and it meant work on Saturday Nights at 1 AM. The pain soon numbed and what emerged was a developer who could now suddenly write design libraries. Bolkar was a part of <b>Axilor Ventures</b> - An Startup Accelator that hosted not only us, but 13 more top-tier teams. This made me interact with several founders who had already been successful in their past, graduating from IITs and IIMs. ',
+  },
+}
+
+const melbourne_2019 = {
+  stepper: {
+    icon: '💻',
+    label: 'Code',
+    role: 'img',
+  },
+  image: {
+    label: 'Bhardwaj Giridhar Coding on a laptop',
+    path: AxilorBitmoji,
+  },
+  event: {},
+}
+
+const lifeEvents = [corona_2020_to_2021, axilor_2019]
