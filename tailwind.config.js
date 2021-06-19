@@ -146,6 +146,9 @@ module.exports = {
   },
   variants: {
     typography: ['dark'],
+    extend: {
+      backgroundColor: ['active'],
+    },
   },
   plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
 }

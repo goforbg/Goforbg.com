@@ -1,6 +1,8 @@
 import Image from 'next/image'
-import WisdomBitmoji from 'public/static/images/pandemic.png'
-import AxilorBitmoji from 'public/static/images/axilor.png'
+import WisdomBitmoji from 'public/static/images/life_events/pandemic.png'
+import AxilorBitmoji from 'public/static/images/life_events/axilor.png'
+import AustraliaBitmoji from 'public/static/images/life_events/australia.png'
+import GymBitmoji from 'public/static/images/life_events/gym.png'
 
 export default function Timeline() {
   return (
@@ -20,7 +22,7 @@ export default function Timeline() {
 }
 function lifeEvent(lifeEvent) {
   return (
-    <div className="flex relative pt-10 pb-20 items-center">
+    <div key={lifeEvent.event.title} className="flex relative pt-10 pb-20 items-center">
       <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
         <div className="h-full w-0.5 bg-gray-200 dark:bg-gray-800 pointer-events-none"></div>
       </div>
@@ -63,7 +65,7 @@ const corona_2020_to_2021 = {
     path: WisdomBitmoji,
   },
   event: {
-    title: 'Wisdom Fulled Pandemic',
+    title: 'Wisdom Fuelled Pandemic',
     desc:
       "The pandemic was a huge turn in my life. I had discovered Naval Ravikanth, which was the butterfly to a <b>storm of finance, entrepreneurship & self-help books</b> . I have always been intrigued by wealth, but the pandemic that gave rise to extra time, more knowledge consisely connected the dots on what I exactly needed to do. I became very clear on what I had to do next. A new chapter of wealth creation begins. <br /> <br /> I joined Workllama as an Android Engineer, and learnt how to architect apps at scale. Conducted 50+ interviews, coded 5+ libraries. Learnt how to build & ship applications using Next js, React, Tailwind, Node js, Docker and more! Hunted several <b>product of the day</b> ProductHunt posts. I had previously been shying away from learning new technologies, but I couldn't stop here! The more I read about economy, the more I understood the nuances of society.",
   },
@@ -88,15 +90,35 @@ const axilor_2019 = {
 
 const melbourne_2019 = {
   stepper: {
-    icon: '💻',
-    label: 'Code',
+    icon: '✈',
+    label: 'Travel',
     role: 'img',
   },
   image: {
-    label: 'Bhardwaj Giridhar Coding on a laptop',
-    path: AxilorBitmoji,
+    label: 'Bhardwaj Giridhar at Australia',
+    path: AustraliaBitmoji,
   },
-  event: {},
+  event: {
+    title: 'Hit the road Jack!',
+    desc:
+      'Life is an endless series of train wrecks with only brief commercial-like breaks of happiness. This had been the ultimate commercial break. I was interning at <b>Swinburne University, Melbourne</b>. It was my first time flying abroad, and it was an amazing experience to write a paper on the Melbourne Water Plant. I got to interact with people from all over the world, It helped me boost my communication skills. I did not know that in some countries outside India, you could drink the water right from the tap, and that was what my paper was about. <br/><br/> The water metres used in apartments are also tracked digitally to deliver water bills over email, and this inspired me to learn Python. I looked around and it gave me hope after 4 stressful years. It felt like I restarted life, and I was so grateful I could view life in a different lens. Everything we think is true about ourselves is just manifestation of what we believe and the longer we stay in the same place, the more narrow-minded we become. Travel is an amazing way to break stereotypes about yourself and this helped me do exactly that.',
+  },
 }
 
-const lifeEvents = [corona_2020_to_2021, axilor_2019]
+const weight_loss_2018 = {
+  stepper: {
+    icon: '🦇',
+    label: 'Batman',
+    role: 'img',
+  },
+  image: {
+    label: 'Bharadwaj Giridhar Weight loss',
+    path: GymBitmoji,
+  },
+  event: {
+    title: 'The Dark Knight Rises',
+    desc: 'Contemplating the existence of my life had become my to-go hobby. ',
+  },
+}
+
+const lifeEvents = [corona_2020_to_2021, axilor_2019, melbourne_2019, weight_loss_2018]

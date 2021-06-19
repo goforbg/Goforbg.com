@@ -2,6 +2,7 @@ import siteMetadata from '@/data/siteMetadata'
 import SocialIcon from '@/components/social-icons'
 import { PageSeo } from '@/components/SEO'
 import Timeline from '@/components/Timeline'
+import CTA from '@/components/CTA'
 
 export default function About() {
   return (
@@ -23,16 +24,8 @@ export default function About() {
             <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">
               {siteMetadata.author}
             </h3>
-            <div className="text-gray-500 dark:text-gray-400">Founder at Dotpush.</div>
+            <div className="text-gray-500 dark:text-gray-400">Entrepreneur. Dreamer.</div>
             <div className="text-gray-500 dark:text-gray-400">Android at Workllama.</div>
-            <div className="flex pt-6 space-x-3">
-              <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} />
-              <SocialIcon kind="github" href={siteMetadata.github} />
-              <SocialIcon kind="facebook" href={siteMetadata.facebook} />
-              <SocialIcon kind="youtube" href={siteMetadata.youtube} />
-              <SocialIcon kind="linkedin" href={siteMetadata.linkedin} />
-              <SocialIcon kind="twitter" href={siteMetadata.twitter} />
-            </div>
           </div>
           <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
             <p>
@@ -54,6 +47,7 @@ export default function About() {
           </div>
         </div>
       </section>
+      <CTA />
       <Timeline />
     </>
   )
