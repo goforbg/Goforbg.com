@@ -2,7 +2,7 @@ export default function CTA() {
   return (
     <>
       <section>
-        <div className="lg:my-10 md:my-5 sm:my-2 p-2 flex items-center justify-between text-gray-800">
+        <div className="lg:my-14 md:my-5 sm:my-2 p-2 flex items-center justify-between text-gray-800">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 w-full max-w-6xl">
             <div className="flex items-center p-4 hover:bg-gray-100 dark:hover:bg-gray-800 rounded cursor-pointer">
               <div className="flex flex-shrink-0 items-center justify-center bg-green-200 h-16 w-16 rounded">
@@ -47,7 +47,7 @@ export default function CTA() {
               <div className="flex-grow flex flex-col ml-4">
                 <span className="text-xl font-bold text-black dark:text-white">View Resume/CV</span>
                 <div className="flex items-center justify-between">
-                  <span className="text-gray-700 dark:text-gray-100">No login required.</span>
+                  <span className="text-gray-700 dark:text-gray-100">ATS Compatible.</span>
                 </div>
               </div>
             </div>
