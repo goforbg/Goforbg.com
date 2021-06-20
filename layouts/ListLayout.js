@@ -49,7 +49,11 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
           </div>
         </div>
         <ul>
-          {!filteredBlogPosts.length && 'No posts found.'}
+          {!filteredBlogPosts.length && (
+            <div className="flex items-center justify-center w-full h-60 font-bold">
+              No posts found.
+            </div>
+          )}
           {displayPosts.map((frontMatter) => {
             const { slug, date, title, summary, tags } = frontMatter
             return (
@@ -86,11 +90,9 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
           })}
         </ul>
       </div>
-      {pagination &&
-        pagination.totalPages > 1 &&
-        !searchValue && (
-          <Pagination currentPage={pagination.currentPage} totalPages={pagination.totalPages} />
-        )}
+      {pagination && pagination.totalPages > 1 && !searchValue && (
+        <Pagination currentPage={pagination.currentPage} totalPages={pagination.totalPages} />
+      )}
     </>
   )
 }
