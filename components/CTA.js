@@ -19,7 +19,17 @@ export default function CTA() {
                   />
                 </svg>
               </div>
-              <div className="flex-grow flex flex-col ml-4">
+              <div
+                className="flex-grow flex flex-col ml-4"
+                role="button"
+                tabIndex="0"
+                onKeyPress={() => {
+                  window.location = '/contact'
+                }}
+                onClick={() => {
+                  window.location = '/contact'
+                }}
+              >
                 <span className="text-xl font-bold text-black dark:text-white">Get in touch</span>
                 <div className="flex items-center justify-between">
                   <span className="text-gray-700 dark:text-gray-100" role="img" aria-label="wave">
@@ -44,7 +54,17 @@ export default function CTA() {
                   />
                 </svg>
               </div>
-              <div className="flex-grow flex flex-col ml-4">
+              <div
+                className="flex-grow flex flex-col ml-4"
+                role="button"
+                tabIndex="0"
+                onKeyPress={() => {
+                  window.location = '/resume.pdf'
+                }}
+                onClick={() => {
+                  window.location = '/resume.pdf'
+                }}
+              >
                 <span className="text-xl font-bold text-black dark:text-white">View Resume/CV</span>
                 <div className="flex items-center justify-between">
                   <span className="text-gray-700 dark:text-gray-100">ATS Compatible.</span>
@@ -67,7 +87,17 @@ export default function CTA() {
                   />
                 </svg>
               </div>
-              <div className="flex-grow flex flex-col ml-4">
+              <div
+                className="flex-grow flex flex-col ml-4"
+                role="button"
+                tabIndex="0"
+                onKeyPress={() => {
+                  window.location = '/projects'
+                }}
+                onClick={() => {
+                  window.location = '/projects'
+                }}
+              >
                 <span className="text-xl font-bold text-black dark:text-white">View Projects.</span>
                 <div className="flex items-center justify-between">
                   <span className="text-gray-700 dark:text-gray-100">I ♥ Open-Source.</span>
