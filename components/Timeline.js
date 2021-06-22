@@ -31,13 +31,13 @@ function lifeEvent(lifeEvent) {
       <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
         <div className="h-full w-0.5 bg-gray-200 dark:bg-gray-800 pointer-events-none"></div>
       </div>
-      <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">
+      <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-primary text-white relative z-10 title-font font-medium text-sm">
         <span role={lifeEvent.stepper.role} aria-label={lifeEvent.stepper.label}>
           {lifeEvent.stepper.icon}
         </span>
       </div>
       <div className="flex-grow pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-        <div className="relative flex-shrink-0 w-48 h-48 text-indigo-400 rounded-full inline-flex items-center justify-center">
+        <div className="relative flex-shrink-0 w-48 h-48 text-primary rounded-full inline-flex items-center justify-center">
           <Image
             src={lifeEvent.image.path}
             alt={lifeEvent.image.label}
@@ -56,10 +56,10 @@ function lifeEvent(lifeEvent) {
           <Disclosure>
             {({ open }) => (
               <>
-                <Disclosure.Button className="mt-6 flex justify-between px-4 py-2 text-sm font-medium text-left text-purple-900 bg-purple-100 rounded-lg hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                <Disclosure.Button className="mt-6 flex justify-between px-4 py-2 text-sm font-bold text-left text-black bg-primary rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-primary focus-visible:ring-opacity-75">
                   <span>{lifeEvent.learning.title}</span>
                   <ChevronUpIcon
-                    className={`${open ? '' : 'transform rotate-180'} ml-1 w-5 h-5 text-purple-500`}
+                    className={`${open ? '' : 'transform rotate-180'} ml-1 w-5 h-5 text-black`}
                   />
                 </Disclosure.Button>
                 <Disclosure.Panel>

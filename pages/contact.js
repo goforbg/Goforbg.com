@@ -57,7 +57,7 @@ export default function Contact() {
                     onChange={(e) => setName(e.target.value)}
                     name="name"
                     htmlFor="name"
-                    className="w-full bg-white dark:bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-900 dark:text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-white dark:bg-gray-800 rounded border border-gray-700 focus:border-primary focus:ring-2 focus:ring-primary text-base outline-none text-gray-900 dark:text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
                 <div className="mt-8">
@@ -69,7 +69,7 @@ export default function Contact() {
                     name="email"
                     value={email}
                     htmlFor="email"
-                    className="w-full bg-white dark:bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-900 dark:text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-white dark:bg-gray-800 rounded border border-gray-700 focus:border-primary focus:ring-2 focus:ring-primary text-base outline-none text-gray-900 dark:text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
                 <div className="mt-8">
@@ -80,12 +80,12 @@ export default function Contact() {
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                     name="message"
-                    className="w-full bg-white dark:bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-900 dark:text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-white dark:bg-gray-800 rounded border border-gray-700 focus:border-primary focus:ring-2 focus:ring-primary h-32 text-base outline-none text-gray-900 dark:text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                   />
                 </div>
                 <button
                   type="submit"
-                  className="w-full mt-8 px-3 py-2 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none"
+                  className="w-full mt-8 px-3 py-2 text-black font-bold bg-primary rounded-md focus:outline-none"
                 >
                   Send Message
                 </button>

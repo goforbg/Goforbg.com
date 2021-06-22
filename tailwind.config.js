@@ -21,6 +21,8 @@ module.exports = {
       },
       colors: {
         blue: colors.lightBlue,
+        primary: '#FDDC4F',
+        yellow: colors.amber,
         code: {
           green: '#b5f4a5',
           yellow: '#ffe484',
