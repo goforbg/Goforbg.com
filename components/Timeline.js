@@ -56,10 +56,12 @@ function lifeEvent(lifeEvent) {
           <Disclosure>
             {({ open }) => (
               <>
-                <Disclosure.Button className="mt-6 flex justify-between px-4 py-2 text-sm font-bold text-left text-black bg-primary rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-primary focus-visible:ring-opacity-75">
+                <Disclosure.Button className="mt-6 flex justify-between px-4 py-2 text-sm font-bold text-left text-white dark:text-gray-900 bg-primary rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-primary focus-visible:ring-opacity-75">
                   <span>{lifeEvent.learning.title}</span>
                   <ChevronUpIcon
-                    className={`${open ? '' : 'transform rotate-180'} ml-1 w-5 h-5 text-black`}
+                    className={`${
+                      open ? '' : 'transform rotate-180'
+                    } ml-1 w-5 h-5 text-white dark:text-gray-900`}
                   />
                 </Disclosure.Button>
                 <Disclosure.Panel>

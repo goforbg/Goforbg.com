@@ -8,7 +8,7 @@ export default function CTA() {
               <div className="flex flex-shrink-0 items-center justify-center bg-primary h-16 w-16 rounded">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 fill text-black"
+                  className="h-6 w-6 fill text-white"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -45,7 +45,7 @@ export default function CTA() {
               <div className="flex flex-shrink-0 items-center justify-center bg-primary h-16 w-16 rounded">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 fill text-black"
+                  className="h-6 w-6 fill text-white"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -80,7 +80,7 @@ export default function CTA() {
               <div className="flex flex-shrink-0 items-center justify-center bg-primary h-16 w-16 rounded">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 fill text-black"
+                  className="h-6 w-6 fill text-white"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"

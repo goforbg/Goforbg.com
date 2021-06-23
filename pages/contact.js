@@ -4,6 +4,11 @@ import React, { useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
+import { PageSeo } from '@/components/SEO'
+import siteMetadata from '@/data/siteMetadata'
+
+import { sendEmail } from '../api/Contact.api'
+
 export default function Contact() {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
@@ -11,14 +16,28 @@ export default function Contact() {
 
   const onMessageSubmitted = (e) => {
     e.preventDefault()
-    toast.success(`Your message went perfectly, ${name}`)
-    setName('')
-    setEmail('')
-    setMessage('')
+    toast.info(`Sending your message...`)
+    sendEmail(name, email, message)
+      .then((res) => {
+        setName('')
+        setEmail('')
+        setMessage('')
+        toast.success(`Your message went perfectly, ${name}`)
+      })
+      .catch((err) => {
+        console.log(`Error sending email ${err}`)
+        toast.error(`Sorry, some error happened. Try again or mail me directly!
+      `)
+      })
   }
 
   return (
     <>
+      <PageSeo
+        title={`About - ${siteMetadata.author}`}
+        description={`About me - ${siteMetadata.author}`}
+        url={`${siteMetadata.siteUrl}`}
+      />
       <ToastContainer />
       <section className="text-gray-600 body-font relative">
         <div className="container px-5 mx-auto">
@@ -85,7 +104,7 @@ export default function Contact() {
                 </div>
                 <button
                   type="submit"
-                  className="w-full mt-8 px-3 py-2 text-black font-bold bg-primary rounded-md focus:outline-none"
+                  className="w-full mt-8 px-3 py-2 text-white font-bold bg-primary rounded-md focus:outline-none"
                 >
                   Send Message
                 </button>

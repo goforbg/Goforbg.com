@@ -23,7 +23,7 @@ export default function Home() {
       <section>
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 text-center">
-            About BG
+            About <span className="text-primary">BG</span>
           </h1>
         </div>
         <div className="items-center space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-2 ">

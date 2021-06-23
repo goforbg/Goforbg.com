@@ -20,8 +20,8 @@ module.exports = {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        blue: colors.lightBlue,
-        primary: '#FDDC4F',
+        blue: colors.sky,
+        primary: '#F97316',
         yellow: colors.amber,
         code: {
           green: '#b5f4a5',
