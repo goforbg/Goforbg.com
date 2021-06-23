@@ -1,17 +1,13 @@
 const projectsData = [
   {
-    title: 'DotPush | Solo-founder, Fullstack',
-    description: `What is you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
+    title: 'DotPush [WIP] - Solo-founder, Fullstack',
+    description: `Dotpush enables Agile Dev teams to have fast & efficient meetings..`,
     imgSrc: '/static/images/google.png',
     href: 'https://www.google.com',
   },
   {
-    title: 'Finmux | Android Developer',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten handphones with this simple yet affordable solution.`,
+    title: 'Finmux - Android Developer',
+    description: `Finmux promotes curated healthy financial advice using your ATM withdrawals, bank transfers & using SMS & Email.`,
     imgSrc: '/static/images/time-machine.jpg',
     href: '/blog/the-time-machine',
   },
