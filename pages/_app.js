@@ -6,8 +6,10 @@ import Head from 'next/head'
 
 import { SEO } from '@/components/SEO'
 import LayoutWrapper from '@/components/LayoutWrapper'
+import * as GoogleAnalytics from 'next-google-analytics'
 
 export default function App({ Component, pageProps }) {
+  GoogleAnalytics.useAppInit()
   return (
     <ThemeProvider attribute="class">
       <Head>
@@ -20,3 +22,5 @@ export default function App({ Component, pageProps }) {
     </ThemeProvider>
   )
 }
+
+export { reportWebVitals } from 'next-google-analytics'
