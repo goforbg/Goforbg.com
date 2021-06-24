@@ -22,8 +22,8 @@ export default function Footer() {
           <Link href="/">{siteMetadata.title}</Link>
         </div>
         <div className="mb-8 text-sm text-gray-500 dark:text-gray-400 text-center">
-          <Link href="https://github.com/timlrx/tailwind-nextjs-starter-blog">
-            Template by Timothy.
+          <Link href="https://github.com/goforbg/Goforbg.com">
+            Built on a fork of Timothy's repo.
           </Link>
         </div>
         <div className="mb-8 text-xs text-gray-500 dark:text-gray-400 text-center">
