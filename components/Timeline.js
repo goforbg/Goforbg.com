@@ -183,7 +183,7 @@ const college_disaster = {
   event: {
     title: 'College & Hackathons',
     desc:
-      "I'm strongly believe the best way to learn Programming, is to <b>do and learn yourself</b>. I partied a lot! My lifeline during College was hackathons & workshops. I participated in hackathons across the country including CIT, Prodigy, IIT BHU, Smart India Hackathon, & more.<br/><br/> I learnt a lot about Photography, improved my Public Speaking, Choreographic, Video-editing skills and maintained 2 Youtube Channels - Androar & Foodmux. Partnered up with a dozen of 3-star restaurants.",
+      'I strongly believe the best way to learn Programming, is to <b>do and learn yourself</b>. I partied a lot! My lifeline during College was hackathons & workshops. I participated in hackathons across the country including CIT, Prodigy, IIT BHU, Smart India Hackathon, & more.<br/><br/> I learnt a lot about Photography, improved my Public Speaking, Choreographic, Video-editing skills and maintained 2 Youtube Channels - Androar & Foodmux. Partnered up with a dozen of 3-star restaurants.',
   },
 }
 
