@@ -60,7 +60,19 @@ export default function Contact() {
                     Let's talk about everything!
                   </h2>
                   <div className="text-gray-500 dark:text-gray-400 mt-4">
-                    Hate forms? Send an email to bg[at]goforbg.com.
+                    Hate forms?{' '}
+                    <u>
+                      <a href="https://calendly.com/goforbg" target="_blank" rel="noreferrer">
+                        Schedule a call
+                      </a>
+                    </u>{' '}
+                    or mail me at{' '}
+                    <u>
+                      {' '}
+                      <a href="mailto:bg@goforbg.com" target="_blank" rel="noreferrer">
+                        bg[at]goforbg.com
+                      </a>
+                    </u>
                   </div>
                 </div>
                 <div className="mt-8 text-center">{illustration}</div>
