@@ -95,7 +95,7 @@ const corona_2020_to_2021 = {
   event: {
     title: 'Wisdom Fuelled Pandemic',
     desc:
-      'I joined Workllama as an Android Engineer, and learnt how to architect apps at scale. Conducted 50+ interviews, coded 5+ libraries. Learnt how to build & ship applications using Next js, React, Tailwind, Node js, Docker and more! <br/><br/>The pandemic was a big turning point, I had discovered Naval Ravikanth, which led to a storm of finance, entrepreneurship wisdom. I hunted several topnotch ProductHunt posts. A new chapter of wealth creation begins with intense focus on Finance.',
+      'I joined Workllama as an Android Engineer. I learned how to architect apps at scale. Conducted 30+ interviews, coded 5+ libraries. Learned how to build & ship applications using <b>Next js, React, Tailwind, Node js, Docker, and more!</b> <br/><br/> I discovered Naval Ravikanth, which led me to a gold pot of Entrepreneurship and Finance wisdom. I hunted several top-notch ProductHunt posts. ',
   },
 }
 
@@ -117,7 +117,7 @@ const axilor_2019 = {
   event: {
     title: 'The new kid on the block',
     desc:
-      "When you say the words <b>Bengaluru, Tech or Startups</b> my brain strarted lighting up. I had scored an Android internship with huge efforts at Bolkar (previously Pascolan) a startup aiming to be the #1 Indian vernacular audio Q&A platform. <br/><br/> I could now suddenly write design libraries. Bolkar was a part of <b>Axilor Ventures</b> - One of India's finest Startup Accelator that hosted 14 more top-tier teams that cohort. This made me interact with several second time founders from IITs and IIMs. ",
+      'When I hear <b>"Bengaluru, Tech, & Startups"</b> my brain started lighting up. I had scored an Android internship with immense efforts at Bolkar (previously Pascolan) - a startup aiming to be the #1 Indian vernacular audio Q&A platform. <br/><br/>I could now suddenly write design libraries. Bolkar was a part of <b>Axilor Ventures</b> - One of India\'s finest Startup Accelerator that hosted 14 more top-tier teams that cohort, which made me interact with several second-time founders from IITs and IIMs.',
   },
 }
 
@@ -139,7 +139,7 @@ const melbourne_2019 = {
   event: {
     title: 'Hit the road Jack!',
     desc:
-      'I was interning at <b>Swinburne University, Melbourne</b>. It was my first time flying abroad, and it was an amazing experience to write a paper on the Melbourne Water Plant. I got to interact with people from all over the world which boosted my communication skills. <br/><br/> My paper was about water metres used in apartments are also tracked digitally to deliver water bills over email and tap water recycled as consumeable, and this inspired me to learn Python.  It felt like I restarted life, and I was so grateful I could view life in a different lens. ',
+      'I was interning at <b>Swinburne University, Melbourne</b>. It was my first time flying abroad, and it was amazing to write a paper on the Melbourne Water Plant. I got to interact with people from all over the world, which boosted my communication skills.<br/><br/> My paper was about water meters used in apartments that digitally track usage to deliver water bills and tap water recycled as consumables, which inspired me to learn Python.  It felt like I restarted life, and I was so grateful I could view life through a different lens. ',
   },
 }
 
@@ -161,7 +161,7 @@ const weight_loss_2018 = {
   event: {
     title: 'The Dark Knight Rises',
     desc:
-      'Apart from the hackathons & workshops in college, I used to binge eat as an escape mechanism. I saw the Dark Knight Rises by Nolan, and it was at <u><a href="https://www.youtube.com/watch?v=DjffIi2Pl7M" rel="noreferrer" target="_blank">that</a></u> moment I decided to change my life. <b>I lost 30+ kilos (66+ pounds)</b> in the next 5 months. <br/><br/> Started waking early to code everyday. Graduated a course by Indian ministry of Commerce and Industry about the fundamentals of startups, consisting of content from successful entrepreneurs like Bhavish Agarwal from Ola and Girish Mathrubootham from Freshworks.',
+      'Apart from the hackathons & workshops in college, I used to overeat as an escape mechanism. I saw the Dark Knight Rises by Nolan, and it was at <u><a href="https://www.youtube.com/watch?v=DjffIi2Pl7M" rel="noreferrer" target="_blank">that</a></u> moment I decided to change my life. <b>I lost 30+ kilos (66+ pounds)</b> in the next five months. <br/><br/> I started waking early to code every day. Graduated a course by the Indian Ministry of Commerce and Industry about the fundamentals of startups, consisting of content from successful entrepreneurs like Bhavish Agarwal from Ola and Girish Mathrubootham from Freshworks.',
   },
 }
 
@@ -183,7 +183,7 @@ const college_disaster = {
   event: {
     title: 'College & Hackathons',
     desc:
-      'I strongly believe the best way to learn Programming, is to <b>do and learn yourself</b>. I partied a lot! My lifeline during College was hackathons & workshops. I participated in hackathons across the country including CIT, Prodigy, IIT BHU, Smart India Hackathon, & more.<br/><br/> I learnt a lot about Photography, improved my Public Speaking, Choreographic, Video-editing skills and maintained 2 Youtube Channels - Androar & Foodmux. Partnered up with a dozen of 3-star restaurants.',
+      'I strongly believe the best way to learn Programming is to <b>do and learn yourself.</b> I partied a lot! My lifeline during College was hackathons & workshops. I participated in hackathons across the country at CIT, Prodigy, IIT BHU, Smart India Hackathon, & more.<br/><br/> I learned a lot about Photography, improved my Public Speaking, Choreographic, Video-editing skills, and maintained 2 Youtube Channels - Androar & Foodmux. I Partnered up with a dozen of 3-star restaurants.',
   },
 }
 
@@ -205,7 +205,7 @@ const boss_baby = {
   event: {
     title: 'Best Student Entrepreneur',
     desc:
-      "It all started when I jailbreaked my mom's phone to run some games. It got me interested in smartphones, tech and started my blogging journey at 12. I then started earning from Ad revenues, Writing, Migrating blog hosts and running SEO Optimizations.<br/><br/>Then I founded Twecco Solutions with over 50 recurring clients for which I was awarded at School as the Best Student Entrepreneur 2014. My ambition was set in the right path right from then.",
+      "It all started when I jailbroke my mom's phone to run some games. It got me interested in smartphones, tech, and my blogging journey since the age of 12. I then started earning from Ad revenues, Writing, Migrating blog hosts, and running SEO Optimizations.<br/><br/> I got awarded as <b>the best student entrepreneur</b> for founding Twecco Solutions. The freelance firm had over 50 recurring clients. My ambition had become very clear.",
   },
 }
 

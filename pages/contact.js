@@ -47,7 +47,7 @@ export default function Contact() {
             </h1>
           </div>
           <div className="text-gray-500 dark:text-gray-400 mt-2 text-center">
-            I talk a lot about Startups, Tech, Finance & Philosophy. Just come say Hi{' '}
+            I talk a lot about Startups, Tech, Finance & Philosophy. Say Hi!{' '}
             <span role="img" aria-label="wave">
               👋
             </span>

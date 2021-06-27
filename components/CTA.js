@@ -35,7 +35,7 @@ export default function CTA() {
                 <span className="text-xl font-bold text-black dark:text-white">Get in touch</span>
                 <div className="flex items-center justify-between">
                   <span className="text-gray-700 dark:text-gray-100" role="img" aria-label="wave">
-                    No pressure, just say hi 👋
+                    No pressure. Say hi 👋
                   </span>
                 </div>
               </div>

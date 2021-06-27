@@ -40,16 +40,16 @@ export default function Home() {
           <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
             <p>
               Bharadwaj Giridhar (@goforbg) is an Entrepreneur, Startup Enthusiast & Software
-              Engineer. Starting from the age of 12 he has been always been blogging, building &
-              shipping tech solutions round the globe.
+              Engineer. He has been blogging, building & shipping tech solutions around the globe,
+              started from the age of twelve.
             </p>
             <p>
               He's currently building DotPush & Finmux, previously ventured with Foodmux, Androar,
               Twecco.
             </p>
             <p>
-              He's currently a full time Android Engineer at Workllama and has shipped 8+ Android
-              Apps to 100K+ users. He has over 2 years of experience in architecting end to end
+              He's currently a full-time Android Engineer at Workllama and has shipped 8+ Android
+              Apps to 100K+ users. He has over two years of experience in architecting end-to-end
               Android Applications.
             </p>
           </div>
