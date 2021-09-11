@@ -5,7 +5,7 @@
   "scripts": {
     "start": "cross-env NODE_ENV=production node server.js cross-env TAILWIND_MODE=watch next-remote-watch ./data",
     "dev": "cross-env TAILWIND_MODE=watch next dev",
-    "build": "next build && node ./scripts/generate-sitemap",
+    "build": "next build",
     "serve": "next start",
     "analyze": "cross-env ANALYZE=true next build",
     "prepare": "husky install"
