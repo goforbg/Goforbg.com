@@ -36,3 +36,4 @@ yarn-error.log*
 .env.production.local
 
 Goforbg.com.zip
+next.config
