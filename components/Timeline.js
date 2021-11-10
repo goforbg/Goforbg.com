@@ -1,13 +1,12 @@
-import Image from 'next/image'
 import { Disclosure } from '@headlessui/react'
 import { ChevronUpIcon } from '@heroicons/react/solid'
 
-import WisdomBitmoji from 'public/static/images/life_events/pandemic.png'
-import AxilorBitmoji from 'public/static/images/life_events/axilor.png'
-import AustraliaBitmoji from 'public/static/images/life_events/australia.png'
-import GymBitmoji from 'public/static/images/life_events/gym.png'
-import CollegeBitmoji from 'public/static/images/life_events/college.png'
-import SchoolBitmoji from 'public/static/images/life_events/school.png'
+const WisdomBitmoji = '/static/images/life_events/pandemic.png'
+const AxilorBitmoji  =  '/static/images/life_events/axilor.png'
+const AustraliaBitmoji  =  '/static/images/life_events/australia.png'
+const GymBitmoji  =  '/static/images/life_events/gym.png'
+const CollegeBitmoji  =  '/static/images/life_events/college.png'
+const SchoolBitmoji  =  '/static/images/life_events/school.png'
 
 export default function Timeline() {
   return (
@@ -38,7 +37,7 @@ function lifeEvent(lifeEvent) {
       </div>
       <div className="flex-grow pl-6 flex sm:items-center items-start flex-col sm:flex-row">
         <div className="relative flex-shrink-0 w-48 h-48 text-primary rounded-full inline-flex items-center justify-center">
-          <Image
+          <img
             src={lifeEvent.image.path}
             alt={lifeEvent.image.label}
             layout="fill"
