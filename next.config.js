@@ -1,14 +1,4 @@
 module.exports = {
-  async redirects() {
-    return [
-      {
-        source: '/meet',
-        destination: 'https://meet.google.com/ocg-bsyh-vbk',
-        permanent: false,
-        basePath: false
-      },
-    ]
-  },
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
