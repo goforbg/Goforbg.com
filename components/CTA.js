@@ -63,15 +63,15 @@ export default function CTA() {
                 role="button"
                 tabIndex="0"
                 onKeyPress={() => {
-                  window.location = '/resume.pdf'
+                  window.location = 'https://linkedin.com/in/goforbg'
                 }}
                 onClick={() => {
-                  window.location = '/resume.pdf'
+                  window.location = 'https://linkedin.com/in/goforbg'
                 }}
               >
-                <span className="text-xl font-bold text-black dark:text-white">View Resume/CV</span>
+                <span className="text-xl font-bold text-black dark:text-white">View LinkedIn</span>
                 <div className="flex items-center justify-between">
-                  <span className="text-gray-700 dark:text-gray-100">ATS Compatible.</span>
+                  <span className="text-gray-700 dark:text-gray-100">Work History.</span>
                 </div>
               </div>
             </div>

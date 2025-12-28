@@ -1,17 +1,10 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import * as GoogleAnalytics from 'next-google-analytics'
 
 class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
         <Head>
-          <GoogleAnalytics.Head />
-          <script
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1051562237299725"
-            crossOrigin="anonymous"
-          ></script>
           <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-touch-icon.png" />
           <link
             rel="icon"

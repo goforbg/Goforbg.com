@@ -21,6 +21,7 @@ module.exports = {
     return config
   },
   images: {
-    loader: 'imgix' // this is a hack until the bug is fixed
-  }
+    deviceSizes: [320, 420, 768, 1024, 1200],
+    formats: ['image/avif', 'image/webp'],
+  },
 }
