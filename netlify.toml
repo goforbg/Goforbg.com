@@ -6,3 +6,9 @@
   NODE_VERSION = "18.18.0"
   AWS_LAMBDA_JS_RUNTIME = "nodejs20.x"
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
+  NEXT_TELEMETRY_DISABLED = "1"
+
+# Explicitly disable Next.js plugin for static export
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+  enabled = false
