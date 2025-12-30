@@ -19,6 +19,11 @@ module.exports = {
       ],
     })
 
+    // Handle CommonJS packages in ESM context
+    config.resolve.extensionAlias = {
+      '.js': ['.js', '.ts', '.tsx'],
+    }
+
     return config
   },
   images: {

@@ -1,10 +1,15 @@
 const fs = require('fs')
-const globby = require('globby')
-const prettier = require('prettier')
-const siteMetadata = require('../data/siteMetadata')
+const path = require('path')
 
 ;(async () => {
-  const prettierConfig = await prettier.resolveConfig('./.prettierrc.js')
+  // Use dynamic imports for ES modules
+  const { globby } = await import('globby')
+  const prettier = await import('prettier')
+  const siteMetadata = JSON.parse(
+    fs.readFileSync(path.join(__dirname, '../data/siteMetadata.json'), 'utf8')
+  )
+
+  const prettierConfig = await prettier.default.resolveConfig('./.prettierrc.js')
   const pages = await globby([
     'pages/*.js',
     'data/**/*.mdx',
@@ -38,7 +43,7 @@ const siteMetadata = require('../data/siteMetadata')
         </urlset>
     `
 
-  const formatted = prettier.format(sitemap, {
+  const formatted = await prettier.default.format(sitemap, {
     ...prettierConfig,
     parser: 'html',
   })

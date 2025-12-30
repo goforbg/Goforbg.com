@@ -8,11 +8,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node scripts/generate-sitemap.js && node scripts/generate-rss.js && node scripts/copy-xml-to-out.js",
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
     "analyze": "cross-env ANALYZE=true next build",
-    "serve": "next start"
+    "serve": "next start",
+    "generate:sitemap": "node scripts/generate-sitemap.js",
+    "generate:rss": "node scripts/generate-rss.js"
   },
   "dependencies": {
     "@headlessui/react": "^2.1.0",
