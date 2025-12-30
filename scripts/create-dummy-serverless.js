@@ -54,11 +54,11 @@ function copyHtmlFiles(srcDir, destDir) {
 const blogHtml = path.join(outDir, 'blog.html')
 if (fs.existsSync(blogHtml)) {
   const destBlogHtml = path.join(serverlessDir, 'blog.html')
-  // Remove from out/ first
-  fs.unlinkSync(blogHtml)
-  console.log(`✅ Removed blog.html from out/ to allow plugin to copy`)
+  // Copy first, then remove from out/
   fs.copyFileSync(blogHtml, destBlogHtml)
   console.log(`✅ Copied blog.html to .next/serverless/pages/`)
+  fs.unlinkSync(blogHtml)
+  console.log(`✅ Removed blog.html from out/ to allow plugin to copy`)
 }
 
 // Copy blog subdirectory
@@ -74,16 +74,20 @@ if (fs.existsSync(blogDir)) {
     const srcPath = path.join(blogDir, file)
     const destPath = path.join(destBlogDir, file)
     if (file.endsWith('.html')) {
+      // Copy first, then remove
       fs.copyFileSync(srcPath, destPath)
       console.log(`✅ Copied ${file} to .next/serverless/pages/blog/`)
-      // Remove from out/ so plugin can copy it back
       fs.unlinkSync(srcPath)
       console.log(`✅ Removed ${file} from out/blog/ to allow plugin to copy`)
     }
   })
   // Remove empty blog directory from out
-  if (fs.readdirSync(blogDir).length === 0) {
-    fs.rmdirSync(blogDir)
+  try {
+    if (fs.existsSync(blogDir) && fs.readdirSync(blogDir).length === 0) {
+      fs.rmdirSync(blogDir)
+    }
+  } catch (err) {
+    // Directory might not be empty or already removed, ignore
   }
 }
 
