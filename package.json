@@ -9,7 +9,7 @@
     "dev": "next dev",
     "prebuild": "node scripts/clean-out.js",
     "build": "next build",
-    "postbuild": "node scripts/generate-sitemap.js && node scripts/generate-rss.js && node scripts/copy-xml-to-out.js",
+    "postbuild": "node scripts/generate-sitemap.js && node scripts/generate-rss.js && node scripts/copy-xml-to-out.js && node scripts/create-dummy-serverless.js",
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
