@@ -6,3 +6,9 @@
   NODE_VERSION = "18.18.0"
   AWS_LAMBDA_JS_RUNTIME = "nodejs20.x"
 
+# Disable Next.js plugin - we're using static export (output: 'export')
+# The plugin expects serverless builds but we generate static files in 'out'
+[plugins]
+  package = "@netlify/plugin-nextjs"
+  enabled = false
+
